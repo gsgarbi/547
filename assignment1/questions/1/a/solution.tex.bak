@@ -1,0 +1,43 @@
+Let K be the set of all possible countable unions of A, B and C, i.e:
+
+$ \K = $
+$\deffK $
+
+I will show $\K \subset \sD, \sD \subset \K$. Hence, $\K = \sD$.
+
+$ \K $ is a \sa:
+\\
+$ E \in \K: $
+\\
+$E = \union \in \K$ since D is a partition of E.
+\\
+\\
+$\K$ is closed under union:
+\\
+By construction, K closed under union (finite/countable union)
+\\ \\
+$\K$ is closed under complement:
+\\
+Since $E = \union $ and $\emptyset = A \cap B = A \cap C = B \cap C$:
+\\
+$\comp{A} = B \cup C $  \\
+$\comp{B} = A \cup C $ \\
+$\comp{C} = A \cup B $ \\
+$\comp{\union} = \emptyset $ \\
+\\
+$D \subset \K$: \\
+$A, B, C \in \K$
+\\ \\
+$ \sD \subset \K $: \\
+$ \K $ is a \sa that contains D, so $ \sD \subset K$
+\\ \\
+$\K \subset  \sD:$
+\\
+$A, B, C \in \sD $ by definition of $\sD$.
+\\
+$A \cup B, A \cup C, B \cup C, \union \in sD $ because $\sD$ is a \sa and, thus, needs to be closed under countable unions.
+Therefore, all elements of $\K$ are elements of $\sD$.
+\\ \\
+\textbf{Hence, the list of elements in $\s{D}$ are:
+\\
+$\deffK$}, where $E = \union $

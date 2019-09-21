@@ -1,0 +1,33 @@
+Notation: $ C = \cal{C} $
+
+C is a countable partition of E. Let S be the collection of all sets that are countable unions of elements in C ($C_i$'s, $\emptyset$ included).
+
+Will show $ S = \s{C} $
+
+Proof template:\\
+- S is a \sa.\\
+- $ \s{C} \subset S $\\
+- $ S \subset \s{C} $\\
+
+Lemma: The union of a countable collection of countable sets is countable.
+
+$E \in S$: \\
+$C = \{C_1, C2, ... \}$ is a countable partition of E 
+$\Rightarrow$
+$E = \bigcup C_i \in S $
+
+S is closed under countable unions: \\
+The union of a countable collection of countable sets is countable and S is the collection of all sets that are countable unions of elements from C. So any countable union of elements in S will again be a countable union of elements from C, i.e, an element of S.
+
+S is closed under complement: \\
+Any A from S can be written as a countable union of a collection of elements in $C^* \subset C_i$'s. $A^c$ is then the union of the $ C_i $'s not in $C^*$ because C is a partition of E. Therefore, by our lemma, $A^c$ is also a countable union of elements from C and hence is also in S.
+
+$ \s{C} \subset S $:
+\\
+$\s{C}$ is the intersection of all \sa containing C. S is one of those \sa, so $ \s{C} \subset S $
+
+$ S \subset \s{C} $:
+\\
+By definition, $\s{C}$ needs to be closed under countable union, so it has to contain C and own ($\owns$) all possible countable unions of elements taken from C. So, by the definition of S, $S \subset \s{C}$.
+
+$ \s{C} \subset S \land S \subset \s{C} \iff  S = \s{C} $ \qed

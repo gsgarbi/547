@@ -1,0 +1,52 @@
+composition of functions
+f is epis/f MEASURABLE and g is F/G mesuarble
+then gof is epis/g measurable
+
+exercise. prove that.
+
+borel exomorphism:
+generalize borel to more general cases
+
+everthing for
+(R, B(R))
+works for
+others
+
+3.2 check mesurability in a generating collection is OK for measurability
+
+3.3 Numerical functions
+
+3.4 f is \epsilon measurable iff for all r in R, f^-1[-inf, r] in epsilon
+
+ a \vii b = max(a,b)
+ aAb = min(a,b)
+ 
+positive part
+negative part
+f^+ >  0
+f^- > 0 too
+f = f^+  -  f^-
+
+limit of measurable fns. is it measurable? YES
+lim inf, lim sup
+all pointwise
+one inf for each x
+
+1 inf_n f_n: inf f_n)(x) = inf_n f_n(x)
+3 lim
+(PIC)
+
+
+fn incre. f_1 <= f_2   point-wise inequality
+(f: E -> R)
+
+
+MAIN IMPORTANT RESULT:
+SEQUENCE OF epis eps, then infs, sups, lim inf, lim sup are eps-measurable.
+
+
+consctruct squence with the known limit and manipulate it.
+
+3.5
+
+

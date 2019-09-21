@@ -1,0 +1,5 @@
+Use this template to typeset your solutions to assignments for STAT547C.
+
+Edit main.tex and compile using pdflatex to generate your solutions.
+
+This template is provided as-is (i.e., I do not provide tech support). It doesn't do anything complicated so it should work out of the box.
