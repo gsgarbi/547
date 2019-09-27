@@ -1,1 +1,37 @@
-solution 4
+(4)
+
+
+$\Leftarrow:$
+
+We have:
+$ 
+\exists h: G \rightarrow F: h \text{ is $\calG$-measurable and } f = h \circ g
+$
+
+We want:
+$ 
+f \text{ is } g^{-1}\calG-measurable
+$
+
+$
+h \text{ is $\calG$-measurable }: \forall B \in \calF,  h^{-1}B \in \calG  \\
+g \text{ is $\calE$-measurable }: \forall B \in \calG,  g^{-1}B \in \calE \\
+f \text{ is $\calE$-measurable }: \forall B \in \calF,  f^{-1}B \in \calE\\
+$ 
+
+Take any $ F_1 \in \calF $:\\
+$
+h \text{ is $\calG$-measurable }: h^{-1}F_1 \in \calG \\
+g \text{ is $\calE$-measurable }: g^{-1} h^{-1}F_1  \in g^{-1}\calG \\
+\implies
+g^{-1} \circ h^{-1}F_1  \in g^{-1}\calG \\
+\implies
+(h\circ g)^{-1} F_1  \in g^{-1}\calG \\
+\implies
+f^{-1} F_1   \in g^{-1}\calG \\
+\implies
+\text{ $f$ is $ \in g^{-1}\calG$-measurable}
+$
+
+
+$\Rightarrow:$

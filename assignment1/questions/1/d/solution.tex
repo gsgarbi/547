@@ -2,6 +2,8 @@
 \def\BR{\borel{(\R)}}
 \def\R{\bbR}
 \def\ep{\calE}
+(1d)
+
 This proof will use the following: \\
 Prop. 2.3 from book with $B_0$ as the collection of sets of the form $(q, \infty)$. We know, from the previous question, that $B_0$ generates $\BR$.
 
@@ -47,23 +49,23 @@ $\forall B \in B_0$
 Will prove the counter positive: \\
 If $f$ is \textbf{NOT} constant on at least one member of the partition, then $f$ is \textbf{NOT} $\calE-measurable$.
 
-Assume f is not constant on at least one member $C_d$ in C. This means:
+Assume $f$ is not constant on at least one member $C_d$ in C. This means:
 $ \exists x_1, x_2 \in C_k: f(x_2) < f(x_1) $.
 
 Then take $B = (q, \infty)$ with $f(x_2) < q < f(x_1)$.
 \footnote{
-This rational q exists because $f(x_1)$ and $f(x_2)$ are reals and Q is dense in $\R$, but I won't say q can be written as the average between those two values as said average may not be rational.
+This rational q exists because $f(x_1)$ and $f(x_2)$ are real numbers and Q is dense in $\R$, but I won't say q can be written as the average between those two values as said average may not be rational.
 } 
 
-Using the fact that C is a partition of E, we can write $\finv{B} = S_1 \cup S_2 $, where:
+Using the fact that C is a partition of E, we can write $\finv{B} = C_1 \cup C_2 \cup ... \cup S_2 ... $, where: \\
+$S_2 = \{ x \in C_d: f(x) \in B \} $.
 
-$S_1 = \bigcup C_{j}: k_j > q \ \forall j \in \bbN \setminus \{d\}$ and
-$S_2 = \{ x \in C_d: f(x) \in B \} $ with $S_1 \cap S_2 = \emptyset $
+\textbf{However, $S_2$ is a \textbf{proper} subset of $C_d$ as its elements are taken from $C_d$ and it can't be the whole $C_d$ since $x_2 \in C_d$, but $x_2 \not \in S_2$.}
 
-$S_1$ is defined in a similar fashion as the first case and uses the fact that f takes constant values on partition elements, \textit{with the exception of $C_d$.}
+Since C is a partition of E and $S_2$ is a \textbf{proper} subset of $C_d$ , $\finv{B}$ will only be a member of $\cal{E}$, i.e a countable union of elements taken from C, if $S_2 = \emptyset$, but $x_1 \in S_2$, so $\finv{B} \not \in \cal{E}$. Therefore, $f$ is \textbf{NOT} $\calE-measurable$. \textbf{Since we've proved the counter positive, we have:\\
+$f \text{ is } \calE \text{-measurable} \implies f \text{ is constant on each member of the partition}$}
 
-However, $S_2$ is a \textbf{proper} subset of $C_d$ as its elements are taken from $C_d$ while $S_2$ can't be the whole $C_d$ since $x_2 \in C_d$, but $x_2 \not \in S_2$.
 
-Since C is a partition of E and $S_2$ is a \textbf{proper} subset of $C_d$ , $\finv{B}$ will only be a member of $\cal{E}$, i.e a countable union of elements taken from C, if $S_2 = \emptyset$, but $x_1, x_2 \in S_2$, so $\finv{B} \not \in \cal{E}$.
+
 \qed
 

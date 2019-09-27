@@ -1,1 +1,75 @@
-2g) sol
+(2g)
+
+$\Rightarrow$
+
+
+We know: \\
+$ 
+v_n(A) = 
+\frac{v(A)}{v(C_n)} =
+\frac{P(A)}{P(C_n)} =
+P_n(A),
+A \in \calC_n
+$
+
+We want: \\
+1.
+$
+P(C_n) = 0 \implies v(C_n) = 0
+$
+
+2.
+$
+\nu(A) = \csum c_n \hat{P}_n(A), \text{ where } 
+\hat{P}_n = P_n(A \cap C_n), A \in \sigAlg
+$
+
+Proof:
+
+1.
+$
+\frac{v(A)}{v(C_n)} =
+\frac{P(A)}{P(C_n)} 
+\implies
+v(C_n) = P(C_n)\frac{v(A)}{P(A)}
+$
+Therefore, $
+P(C_n) = 0 \implies v(C_n) = 0
+$
+
+2.\\
+Assume $P(C_n) \neq 0$. Otherwise, from (1), $v(A) = 0$, and we can take $(c_n) = (1, 0, 0, ...)$ and we're done.
+
+$
+v(A) = v(C_n)\frac{P(A)}{P(C_n)} \text{ for any } A \in \calC_n
+$
+
+$ A \in \calC_n $ and $ C_n \in \calC_n $. Therefore, since sigma-algebras are closed under countable intersection, $ A \cap C_n \in \calC_n $ and we can write:
+$
+v(A \cap C_n) = 
+v(C_n)\frac{P(A \cap C_n)}{P(C_n)} =
+v(A \cap C_n) = v(C_n) \hat{P}_n(A) \\ 
+\implies \csum v(A \cap C_n) = \csum v(C_n)\hat{P}_n(A) \\ 
+\implies v(A) = \csum c_n\hat{P}_n(A)
+$
+where, $c_n = v(C_n)$.
+
+$v$ is a probability measure on $(\Omega, \sigAlg) \implies 0 \leq c_n \leq 1, \csum c_n = 1 $ 
+
+
+$\Leftarrow$
+
+Fix n, write the mixture using index m, and assume $P(C_n) \neq 0$:\\
+$
+\dfrac{v(A)}{v(C_n)} = 
+\dfrac {\csum[m] c_m\hat{P}_m(A)} {\csum[m] c_m\hat{P}_m(C_n)} = 
+\dfrac {\csum[m] c_m \frac{P(A \cap C_m)}{P(C_m)}} {\csum[m] c_m \frac{P(C_n \cap C_m)}{P(C_m)}} = 
+\dfrac {\csum[m]P(A \cap C_m)} {c_n \frac{P(C_n)}{P(C_n)}} = \dfrac{P(A)}{P(C_n)}
+$
+
+Now, if $ P(C_n) = 0, \text{ then } v(C_n) = 0$, and we have:\\
+$ A \subset C_n \implies P(A) = 0, v(A) = 0 $. Therefore:\\
+$\frac{v(A)}{v(C_n)} = \frac{0}{0} = \frac{P(A)}{P(C_n)} $
+\qed
+
+

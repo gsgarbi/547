@@ -1,9 +1,17 @@
 % GIO'S NOTATION:
+
+\newcommand{\csum}[1][n]{\sum_{#1 \geq 1}}
+\newcommand{\cunion}[1][n]{\cup_{#1 \geq 1}}
+
+
+
 \def\K{\cal{K}}
 \def\sa{$\sigma$-algebra on $E$ \ }
 \newcommand{\comp}[1]{E \setminus{#1} }
 \def\sol{\textbf{SOLUTION:} \\\\}
 \DeclareRobustCommand\iff{\;\Longleftrightarrow\;}
+
+\let\emptyset\varnothing
 
 \def\deffK{\{
 A, 

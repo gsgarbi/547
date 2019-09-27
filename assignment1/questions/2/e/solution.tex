@@ -1,1 +1,30 @@
-2e) sol
+(2e)
+
+$ 
+P(A) = 
+P( \cunion[n] (A \cap C_n)) = \text{ (countable additivity as the $A \cap C_n$ are pairwise disjoint) }
+\csum P(A \cap C_n) =
+\csum P(C_n)\hat{P}_n(A) =
+\csum c_n\hat{P}_n(A)
+$
+, where $ (c_n)_{n \geq 1} = P(C_n)$.\\
+
+Show convexity:
+
+$
+\csum c_n 
+= 
+\csum P(C_n) 
+= 
+P(\cunion C_n)
+=
+P(E)
+=
+1
+$
+(using that P is a probability measure)
+
+Also, notice $ 0 = P(\emptyset) \leq c_n \leq P(\Omega) = 1 \ \forall n\geq1$.
+
+\textbf{Therefore, P can be recovered as a mixture of the set $\{\hat{P}_n\}_{n \geq 1}$}
+

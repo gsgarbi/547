@@ -18,10 +18,10 @@
 
 \pagebreak
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/1/a/question}
-\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{questions/1/a/question}
+%\pagebreak
 
 \sol
 \input{questions/1/a/solution}
@@ -29,10 +29,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/1/b/question}
-\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{questions/1/b/question}
+%\pagebreak
 
 \sol
 \input{questions/1/b/solution}
@@ -41,9 +41,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/1/c/question}
-\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{questions/1/c/question}
+%\pagebreak
 
 \sol
 \input{questions/1/c/solution}
@@ -51,10 +51,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/1/d/question}
-\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{questions/1/d/question}
+%\pagebreak
 
 \sol
 \input{questions/1/d/solution}
@@ -70,8 +70,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/2/a/question}
-\pagebreak
+%\input{questions/2/a/question}
+%\pagebreak
 
 \sol
 \input{questions/2/a/solution}
@@ -81,8 +81,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/2/b/question}
-\pagebreak
+%\input{questions/2/b/question}
+%\pagebreak
 
 \sol
 \input{questions/2/b/solution}
@@ -92,8 +92,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/2/c/question}
-\pagebreak
+%\input{questions/2/c/question}
+%\pagebreak
 
 \sol
 \input{questions/2/c/solution}
@@ -103,8 +103,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/2/d/question}
-\pagebreak
+%\input{questions/2/d/question}
+%\pagebreak
 
 \sol
 \input{questions/2/d/solution}
@@ -114,8 +114,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/2/e/question}
-\pagebreak
+%\input{questions/2/e/question}
+%\pagebreak
 
 \sol
 \input{questions/2/e/solution}
@@ -125,8 +125,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/2/f/question}
-\pagebreak
+%\input{questions/2/f/question}
+%\pagebreak
 
 \sol
 \input{questions/2/f/solution}
@@ -136,8 +136,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/2/g/question}
-\pagebreak
+%\input{questions/2/g/question}
+%\pagebreak
 
 \sol
 \input{questions/2/g/solution}
@@ -147,7 +147,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/3/question}
+\qsol{Continuous functions} 
 \pagebreak
 
 \sol
@@ -158,7 +158,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{questions/4/question}
+\qsol{Functional representation} 
 \pagebreak
 
 \sol

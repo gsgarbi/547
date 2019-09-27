@@ -1,1 +1,34 @@
-2f)sol
+(2f)
+
+v and $\nu$ are synonyms here.
+
+$
+\nu(A) = \csum c_n \hat{P}_n(A), A \in \sigAlg
+$
+
+Since each $c_n$ is between 0 and 1, and the sum of the $c_n$'s is 1, we can notice that the smallest value that $\nu(A)$ can take is 0 (for instance, when $A = \emptyset)$ while the maximum value is 1, attained when $\hat{P}_n(A)$ (for instance, when $A = \Omega$). Therefore:\\
+$ v: \sigAlg \rightarrow [0, 1] $
+
+$
+\nu(\emptyset) =
+\csum c_n \hat{P}_n(\emptyset) =
+\csum c_n0 =
+0
+$
+
+Take a disjoint collection $(A_m)$ from $\sigAlg$:\\
+$
+\nu(\cunion[m] A_m) = \\
+\csum[n] c_n \hat{P}_n(\cunion[m] A_m) = \text{ (used disjoint and P is a measure here) } \\
+\csum[n] c_n (\csum[m] \hat{P}_n(A_m)) = \\
+\csum[n] (\csum[m] c_n \hat{P}_n(A_m)) = \\
+\csum[m] (\csum[n] c_n \hat{P}_n(A_m)) = \\
+\csum[m] \nu(A_m)
+$
+
+$
+\nu(\Omega) =
+\csum c_n \hat{P}_n(\Omega) =
+\csum c_n =
+1
+$

@@ -1,66 +1,12 @@
-%%%%%%%%%%%% SOLUTION %%%%%%%%%%%%%%%%
-Let $ \K = \deffK $
+(2c)
 
-I will show: $\K = \sD $.
+Define a probability measure $P_n$ on $(C_n, \calC_n)$.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-$ \K $ is a \sa:
-\\
-$ E \in \K: $
-\\
-$E = \union \subset \K$ since D is a partition of E.
-\\
-\\
-\textbf{$\K$ is closed under union:}
-\\
-$ A \cup B \in \K $ 
-\\
-$ A \cup C \in \K $ 
-\\
-$ A \cup (B \cup C) \in \K $
-\\
-etc.\\
-Any union of 2 elements $\in \K$. 
+Let $P_n(A) = \frac{\mu_n(A)}{\mu_n(C_n)}$. Now we have all the requirements for a \textbf{probability measure} as long as this is well defined, i.e, $\mu_n(C_n) \neq 0$
 
-\textbf{$\K$ is closed under complement:}
-\\
-Since $E = \union $ and $\emptyset = A \cap B = A \cap C = B \cap C$:
-\\
-$\comp{A} = B \cup C $ 
-\\
-$\comp{B} = A \cup C $
-\\
-$\comp{A} = A \cup B $
-\\
-$\comp{\union} = \emptyset $
-\\
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-$D \subset \K$:
-\\
-$A, B, C \in \K$
-\\
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-$ \sD \subset \K $:
-\\
-$ \K $ is a \sa that contains D, so $ \sD \subset K $
-\\
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-$ \K \subset \sD $
-\\
-$A, B, C \in \sD $ by definition of $\sD$.
-\\
-$A \cup B, 
-A \cup C, 
-B \cup C,
-\union \in sD $ because $\sD$ is a \sa and, thus, needs to be closed under countable unions.
-Therefore, all elements of $\K$ are elements of $\sD$.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
+(Ie., we have the requirements for a measure, but now we also have: 
+$
+P_n(C_n) =
+\frac{\mu_n(C_n)}{\mu_n(C_n)} =
+1
+$)

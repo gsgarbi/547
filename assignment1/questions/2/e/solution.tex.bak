@@ -1,26 +1,30 @@
-\def\emeas{\calE-measurable}
-\def\BR{\borel(\bbR)}
-\def\R{\bbR}
-\def\ep{\calE}
-\def\finvB{f^{-1} B} 
+(2e)
 
-1(d)
-f is constant on each member of the partition $\Rightarrow f \ is \ \emeas$:
+$ 
+P(A) = 
+P( \cunion[n] (A \cap C_n)) = \text{ (countable additivity as the $A \cap C_n$ are pairwise disjoint) }
+\csum P(A \cap C_n) =
+\csum P(C_n)\hat{P}_n(A) =
+\csum c_n\hat{P}_n(A)
+$
+, where $ (c_n)_{n \geq 1} = P(C_n)$.\\
 
-Prop. 2.3 from book, for the above, it's necessary and sufficient that there exists a $B_0$ that generates $\BR$ such that:
-$ f^{-1} B \in B_0 \forall B \in B_0 $
+Show convexity:
 
-Let's use $B_0$ as the collection of sets of the form $(q, \infty)$. We know, from the previous question, that $B_0$ generates $\BR$.
+$
+\csum c_n 
+= 
+\csum P(C_n) 
+= 
+P(\cunion C_n)
+=
+P(E)
+=
+1
+$
+(using that P is a probability measure)
 
-For each set of the form (q, inf), the inverse image of f will be:
+Also, notice $ 0 = P(\emptyset) \leq c_n \leq P(\Omega) = 1 \ \forall n\geq1$.
 
-$\{x \in UC_k \forall k : f(C_k) > q\}$.
+\textbf{Therefore, P can be recovered as a mixture of the set $\{\hat{P}_n\}_{n \geq 1}$}
 
-Since sigalg E is the collection of countable unions of C, we have that $f^-1 B in E for all B in B_0$.
-
-
-$f \ is \ \emeas$ then f is constant on each member of the partition :
-
-Assume f is not constant in at least one member S in ${C1, C2, ...$. This means there is $x1 != x2 in S such that y1 = f(x1) != f(x2) = y2$.
-
-Then take B = (q-y1, \inf). f^-1 B is all x in E such that f(x) = y1. x is not in any other set of C (pairwise intersection is empty), but at the same time is not there whole S

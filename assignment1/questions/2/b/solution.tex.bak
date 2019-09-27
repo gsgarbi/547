@@ -1,6 +1,28 @@
-(b)
+(2b)
 
-Proof template:\\
-$ \mu(\emptyset) = 0 $\\
-$ \mu(\bigcup_n{A_n}) = \sum_n{\mu(A_n)} $
-$ 
+$ \mu_n(A) = P(A), A \in \calC_n$
+
+\textbf{Show that $\mu_n$ is a measure:}
+
+Since P is a probability measure, $\mu_n: \calC_n \rightarrow [0, 1] \subset \R_{+} $
+
+$\mu_n(\emptyset) = P(\emptyset) = 0 $ since P is a measure.
+
+Let $\{A_n\} \subset C_n$ be a disjoint collection. Using that P is a measure: \\
+$ \mu(\bigcup_n{A_n}) = 
+\P(\bigcup_n{A_n}) = 
+\sum_n{P(A_n)} =
+\sum_n{\mu(A_n)}  $
+
+Hence, $\mu_n$ is a measure.
+
+\textbf{Not necessarily a probability measure:}
+
+There's no guaranteed that $\mu_n(C_n) = 1$ so far. For instance, let $C = \{C_1, C_2\}, n=1, \mu_1(C_1) = 0.6, \mu_1(C_2) = 0.4$
+Since $\mu_1(C_1) \neq 1$, $\mu_1$ is not a probability measure on $(C_1, \calC_1)$.
+
+For $\mu_n$ to be a a probability measure on $(C_n, \calC_n)$, \textbf{we need} $\mu_n(C_n) = 1$, i.e, $ P(C_n) = 1 $.
+
+
+
+
